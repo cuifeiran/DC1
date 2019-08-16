@@ -1,0 +1,5 @@
+通过抓包发现，连接上插座wifi后向
+UDP端口7550 ，
+IP：92.168.4.1 
+发送数据 {"header":"phi-plug-0001","uuid":"00010","action":"wifi=","auth":"","params":{"ssid":"CMCC","password":"12345678"}}  
+注意！！最后一位必须跟个回车即十六进制0x0A通过UDP发包工具发送成功会有如图回复。
